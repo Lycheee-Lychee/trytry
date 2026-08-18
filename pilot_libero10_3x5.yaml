@@ -1,0 +1,22 @@
+# Long-horizon pilot: first 3 official LIBERO-10 tasks, 5 episodes each.
+server:
+  url: "ws://host.docker.internal:8000"
+  timeout: 180
+
+docker:
+  image: ghcr.io/allenai/vla-evaluation-harness/libero:latest
+
+output_dir: "./results/pilot_libero10_3x5"
+
+benchmarks:
+  - benchmark: "vla_eval.benchmarks.libero.benchmark:LIBEROBenchmark"
+    name: "pi05_libero10_pilot"
+    episodes_per_task: 5
+    max_tasks: 3
+    params:
+      suite: libero_10
+      seed: 7
+      num_steps_wait: 10
+    recording:
+      record_video: true
+      video_fps: 10

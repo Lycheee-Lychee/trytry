@@ -1,0 +1,16 @@
+# Never commit credentials or local environment files.
+.env
+.env.*
+*.token
+*credentials*
+
+# Local/editor/runtime noise.
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+logs/
+*.pid
+

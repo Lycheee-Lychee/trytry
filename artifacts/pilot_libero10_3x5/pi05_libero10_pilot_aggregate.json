@@ -1,0 +1,306 @@
+{
+  "benchmark": "pi05_libero10_pilot",
+  "mode": "sync",
+  "harness_version": "0.4.0",
+  "created_at": "2026-08-18T13:03:16.346086+00:00",
+  "tasks": [
+    {
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "episodes": [
+        {
+          "sid": "b3010764-da0b-4e6f-a067-64f3816e7384",
+          "eid": "ef295ef6-8b9b-4bb2-bb4d-663de33c1cde",
+          "episode_id": 0,
+          "metrics": {
+            "success": true
+          },
+          "steps": 247,
+          "elapsed_sec": 51.534,
+          "name": "put both the alphabet soup and the tomato sauce in the basket",
+          "suite": "libero_10",
+          "task_id": 0,
+          "episode_idx": 0
+        },
+        {
+          "sid": "b3010764-da0b-4e6f-a067-64f3816e7384",
+          "eid": "ce43a17d-ab3e-439e-a5ba-ef7038b65ad1",
+          "episode_id": 1,
+          "metrics": {
+            "success": true
+          },
+          "steps": 253,
+          "elapsed_sec": 42.074,
+          "name": "put both the alphabet soup and the tomato sauce in the basket",
+          "suite": "libero_10",
+          "task_id": 0,
+          "episode_idx": 1
+        },
+        {
+          "sid": "b3010764-da0b-4e6f-a067-64f3816e7384",
+          "eid": "aa125d30-6743-44f6-b316-705dc87dd7df",
+          "episode_id": 2,
+          "metrics": {
+            "success": true
+          },
+          "steps": 247,
+          "elapsed_sec": 40.249,
+          "name": "put both the alphabet soup and the tomato sauce in the basket",
+          "suite": "libero_10",
+          "task_id": 0,
+          "episode_idx": 2
+        },
+        {
+          "sid": "b3010764-da0b-4e6f-a067-64f3816e7384",
+          "eid": "27ae5ab6-2243-4aa6-bc40-9812293ea166",
+          "episode_id": 3,
+          "metrics": {
+            "success": true
+          },
+          "steps": 261,
+          "elapsed_sec": 43.267,
+          "name": "put both the alphabet soup and the tomato sauce in the basket",
+          "suite": "libero_10",
+          "task_id": 0,
+          "episode_idx": 3
+        },
+        {
+          "sid": "b3010764-da0b-4e6f-a067-64f3816e7384",
+          "eid": "ef2a8401-d9c0-4ed7-bd20-25d09e6431e2",
+          "episode_id": 4,
+          "metrics": {
+            "success": true
+          },
+          "steps": 262,
+          "elapsed_sec": 42.528,
+          "name": "put both the alphabet soup and the tomato sauce in the basket",
+          "suite": "libero_10",
+          "task_id": 0,
+          "episode_idx": 4
+        }
+      ],
+      "num_episodes": 5,
+      "avg_steps": 254.0,
+      "mean_success": 1.0
+    },
+    {
+      "task": "put both the cream cheese box and the butter in the basket",
+      "episodes": [
+        {
+          "sid": "b3010764-da0b-4e6f-a067-64f3816e7384",
+          "eid": "61818e69-f4eb-4d34-8ab9-8c0f5f5ff012",
+          "episode_id": 0,
+          "metrics": {
+            "success": true
+          },
+          "steps": 240,
+          "elapsed_sec": 40.095,
+          "name": "put both the cream cheese box and the butter in the basket",
+          "suite": "libero_10",
+          "task_id": 1,
+          "episode_idx": 0
+        },
+        {
+          "sid": "b3010764-da0b-4e6f-a067-64f3816e7384",
+          "eid": "0e12b3d9-fa54-4a6c-83ea-b2d26432a9b4",
+          "episode_id": 1,
+          "metrics": {
+            "success": true
+          },
+          "steps": 251,
+          "elapsed_sec": 41.561,
+          "name": "put both the cream cheese box and the butter in the basket",
+          "suite": "libero_10",
+          "task_id": 1,
+          "episode_idx": 1
+        },
+        {
+          "sid": "b3010764-da0b-4e6f-a067-64f3816e7384",
+          "eid": "a00cb70f-f7c5-4b59-9f5b-da5ce53346bc",
+          "episode_id": 2,
+          "metrics": {
+            "success": true
+          },
+          "steps": 228,
+          "elapsed_sec": 36.223,
+          "name": "put both the cream cheese box and the butter in the basket",
+          "suite": "libero_10",
+          "task_id": 1,
+          "episode_idx": 2
+        },
+        {
+          "sid": "b3010764-da0b-4e6f-a067-64f3816e7384",
+          "eid": "45d0e398-be72-48ed-b26a-c989fcde78ce",
+          "episode_id": 3,
+          "metrics": {
+            "success": true
+          },
+          "steps": 240,
+          "elapsed_sec": 38.44,
+          "name": "put both the cream cheese box and the butter in the basket",
+          "suite": "libero_10",
+          "task_id": 1,
+          "episode_idx": 3
+        },
+        {
+          "sid": "b3010764-da0b-4e6f-a067-64f3816e7384",
+          "eid": "a556b747-2eb4-4829-a787-de1dfafc7e9f",
+          "episode_id": 4,
+          "metrics": {
+            "success": true
+          },
+          "steps": 251,
+          "elapsed_sec": 40.694,
+          "name": "put both the cream cheese box and the butter in the basket",
+          "suite": "libero_10",
+          "task_id": 1,
+          "episode_idx": 4
+        }
+      ],
+      "num_episodes": 5,
+      "avg_steps": 242.0,
+      "mean_success": 1.0
+    },
+    {
+      "task": "turn on the stove and put the moka pot on it",
+      "episodes": [
+        {
+          "sid": "b3010764-da0b-4e6f-a067-64f3816e7384",
+          "eid": "d1ad4f34-7c46-4dae-9c4b-68dd4a95b490",
+          "episode_id": 0,
+          "metrics": {
+            "success": true
+          },
+          "steps": 226,
+          "elapsed_sec": 38.057,
+          "name": "turn on the stove and put the moka pot on it",
+          "suite": "libero_10",
+          "task_id": 2,
+          "episode_idx": 0
+        },
+        {
+          "sid": "b3010764-da0b-4e6f-a067-64f3816e7384",
+          "eid": "7b4a5730-1c27-4b68-8cb8-e619bb5c35e0",
+          "episode_id": 1,
+          "metrics": {
+            "success": true
+          },
+          "steps": 274,
+          "elapsed_sec": 44.013,
+          "name": "turn on the stove and put the moka pot on it",
+          "suite": "libero_10",
+          "task_id": 2,
+          "episode_idx": 1
+        },
+        {
+          "sid": "b3010764-da0b-4e6f-a067-64f3816e7384",
+          "eid": "eca70ce0-d3a2-44a0-b52c-0d43adfcaedb",
+          "episode_id": 2,
+          "metrics": {
+            "success": true
+          },
+          "steps": 247,
+          "elapsed_sec": 40.052,
+          "name": "turn on the stove and put the moka pot on it",
+          "suite": "libero_10",
+          "task_id": 2,
+          "episode_idx": 2
+        },
+        {
+          "sid": "b3010764-da0b-4e6f-a067-64f3816e7384",
+          "eid": "5fdca4fb-be3b-45bc-b0be-cbed91684b7a",
+          "episode_id": 3,
+          "metrics": {
+            "success": true
+          },
+          "steps": 235,
+          "elapsed_sec": 38.105,
+          "name": "turn on the stove and put the moka pot on it",
+          "suite": "libero_10",
+          "task_id": 2,
+          "episode_idx": 3
+        },
+        {
+          "sid": "b3010764-da0b-4e6f-a067-64f3816e7384",
+          "eid": "c3ae02f6-dffc-4b56-a0cc-5a30ec423b8e",
+          "episode_id": 4,
+          "metrics": {
+            "success": true
+          },
+          "steps": 239,
+          "elapsed_sec": 38.524,
+          "name": "turn on the stove and put the moka pot on it",
+          "suite": "libero_10",
+          "task_id": 2,
+          "episode_idx": 4
+        }
+      ],
+      "num_episodes": 5,
+      "avg_steps": 244.2,
+      "mean_success": 1.0
+    }
+  ],
+  "config": {
+    "benchmark": "vla_eval.benchmarks.libero.benchmark:LIBEROBenchmark",
+    "mode": "sync",
+    "name": "pi05_libero10_pilot",
+    "subname": null,
+    "episodes_per_task": 5,
+    "max_steps": null,
+    "max_tasks": 3,
+    "tasks": null,
+    "params": {
+      "num_steps_wait": 10,
+      "seed": 7,
+      "suite": "libero_10"
+    },
+    "recording": {
+      "record_video": true,
+      "video_fps": 10
+    },
+    "hz": 10.0,
+    "throughput_mode": false,
+    "paced": true,
+    "wait_first_action": false
+  },
+  "eval_id": "0790bd79-c3ee-455c-8885-a98cbe5eaddd-pi05_libero10_pilot",
+  "server_info": {
+    "harness_version": "0.4.0",
+    "protocol_version": 1,
+    "model_server": "LeRobotModelServer",
+    "capabilities": {},
+    "observation_params": {
+      "send_state": true,
+      "send_wrist_image": true
+    },
+    "action_spec": {
+      "actions": {
+        "name": "raw",
+        "dims": 0,
+        "format": "raw"
+      }
+    },
+    "observation_spec": {
+      "image": {
+        "name": "image",
+        "dims": 0,
+        "format": "rgb_hwc_uint8"
+      },
+      "language": {
+        "name": "language",
+        "dims": 0,
+        "format": "language"
+      },
+      "state": {
+        "name": "raw",
+        "dims": 0,
+        "format": "raw"
+      }
+    }
+  },
+  "seed": 7,
+  "metric_keys": {
+    "success": "mean"
+  },
+  "mean_success": 1.0,
+  "num_episodes_total": 15
+}
