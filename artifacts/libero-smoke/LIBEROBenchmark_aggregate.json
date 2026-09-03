@@ -1,0 +1,93 @@
+{
+  "benchmark": "LIBEROBenchmark",
+  "mode": "sync",
+  "harness_version": "0.4.0",
+  "created_at": "2026-08-18T12:11:41.636161+00:00",
+  "tasks": [
+    {
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "episodes": [
+        {
+          "sid": "60c5eba3-c61a-422f-9eb2-8bf3598dc019",
+          "eid": "41b0fd45-8bdf-42c3-bfe2-a136b2cb629c",
+          "episode_id": 0,
+          "metrics": {
+            "success": true
+          },
+          "steps": 75,
+          "elapsed_sec": 25.726,
+          "name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "episode_idx": 0
+        }
+      ],
+      "num_episodes": 1,
+      "avg_steps": 75.0,
+      "mean_success": 1.0
+    }
+  ],
+  "config": {
+    "benchmark": "vla_eval.benchmarks.libero.benchmark:LIBEROBenchmark",
+    "mode": "sync",
+    "name": null,
+    "subname": null,
+    "episodes_per_task": 1,
+    "max_steps": null,
+    "max_tasks": 1,
+    "tasks": null,
+    "params": {
+      "num_steps_wait": 10,
+      "seed": 7,
+      "suite": "libero_spatial"
+    },
+    "recording": {
+      "record_video": true
+    },
+    "hz": 10.0,
+    "throughput_mode": false,
+    "paced": true,
+    "wait_first_action": false
+  },
+  "eval_id": "5146e2c6-1b31-47cb-aa32-a1039fc60caf-LIBEROBenchmark",
+  "server_info": {
+    "harness_version": "0.4.0",
+    "protocol_version": 1,
+    "model_server": "LeRobotModelServer",
+    "capabilities": {},
+    "observation_params": {
+      "send_state": true,
+      "send_wrist_image": true
+    },
+    "action_spec": {
+      "actions": {
+        "name": "raw",
+        "dims": 0,
+        "format": "raw"
+      }
+    },
+    "observation_spec": {
+      "image": {
+        "name": "image",
+        "dims": 0,
+        "format": "rgb_hwc_uint8"
+      },
+      "language": {
+        "name": "language",
+        "dims": 0,
+        "format": "language"
+      },
+      "state": {
+        "name": "raw",
+        "dims": 0,
+        "format": "raw"
+      }
+    }
+  },
+  "seed": 7,
+  "metric_keys": {
+    "success": "mean"
+  },
+  "mean_success": 1.0,
+  "num_episodes_total": 1
+}

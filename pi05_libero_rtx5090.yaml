@@ -1,0 +1,13 @@
+# Local inference override for RTX 5090 / WSL2.
+extends: _base.yaml
+args:
+  policy_type: pi05
+  checkpoint: lerobot/pi05_libero_finetuned
+  state_key: observation.state
+  chunk_size: 10
+  compile_model: false
+  policy_kwargs:
+    gradient_checkpointing: false
+  image_keys:
+    agentview: observation.images.image
+    wrist: observation.images.image2

@@ -1,0 +1,31 @@
+# Relational control: +10 cm y on pick target AND ramekin. Same 3×5, seed 7.
+# Compare to object-only +y 10 cm (task 1 was 2/5).
+server:
+  url: "ws://host.docker.internal:8000"
+  timeout: 180
+
+docker:
+  image: ghcr.io/allenai/vla-evaluation-harness/libero:latest
+  volumes:
+    - "/home/lychee/research/vla-evaluation-harness/src/vla_eval/benchmarks/libero/object_shift.py:/workspace/src/vla_eval/benchmarks/libero/object_shift.py:ro"
+
+output_dir: "./results/pilot_libero_pair_shift_10cm_y_3x5"
+
+benchmarks:
+  - benchmark: "vla_eval.benchmarks.libero.object_shift:LIBEROObjectShiftBenchmark"
+    name: "pi05_libero_spatial_pairshift_10cm_y"
+    episodes_per_task: 5
+    max_tasks: 3
+    params:
+      suite: libero_spatial
+      seed: 7
+      num_steps_wait: 10
+      object_shift_cm: 10
+      object_shift_axis: y
+      shift_mode: pick_and_landmark
+      landmark_substr: ramekin
+      send_state: true
+      send_wrist_image: true
+    recording:
+      record_video: true
+      video_fps: 10

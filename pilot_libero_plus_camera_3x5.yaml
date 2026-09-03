@@ -1,0 +1,26 @@
+# Camera-view robustness pilot on the same Spatial suite as the 15/15 baseline.
+# Filters LIBERO-Plus to mild Camera Viewpoints, then keeps the first 3 variants
+# and runs 5 episodes each (seed 7), matching the previous 3x5 protocol.
+server:
+  url: "ws://host.docker.internal:8000"
+  timeout: 180
+
+docker:
+  image: ghcr.io/allenai/vla-evaluation-harness/libero-plus:latest
+
+output_dir: "./results/pilot_libero_plus_camera_3x5"
+
+benchmarks:
+  - benchmark: "vla_eval.benchmarks.libero_plus.benchmark:LIBEROPlusBenchmark"
+    name: "pi05_libero_plus_camera_pilot"
+    episodes_per_task: 5
+    max_tasks: 3
+    params:
+      suite: libero_spatial
+      seed: 7
+      num_steps_wait: 10
+      category: "Camera Viewpoints"
+      difficulty_level: 1
+    recording:
+      record_video: true
+      video_fps: 10

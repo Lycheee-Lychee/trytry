@@ -1,0 +1,24 @@
+# Smoke: one mild LIBERO-Plus camera-view variant of LIBERO-Spatial.
+server:
+  url: "ws://host.docker.internal:8000"
+  timeout: 180
+
+docker:
+  image: ghcr.io/allenai/vla-evaluation-harness/libero-plus:latest
+
+output_dir: "./results/smoke_libero_plus_camera"
+
+benchmarks:
+  - benchmark: "vla_eval.benchmarks.libero_plus.benchmark:LIBEROPlusBenchmark"
+    name: "pi05_libero_plus_camera_smoke"
+    episodes_per_task: 1
+    max_tasks: 1
+    params:
+      suite: libero_spatial
+      seed: 7
+      num_steps_wait: 10
+      category: "Camera Viewpoints"
+      difficulty_level: 1
+    recording:
+      record_video: true
+      video_fps: 10

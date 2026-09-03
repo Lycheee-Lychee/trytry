@@ -1,0 +1,316 @@
+{
+  "benchmark": "pi05_libero_spatial_pairshift_10cm_neg_x",
+  "mode": "sync",
+  "harness_version": "0.5.0",
+  "created_at": "2026-09-03T08:54:32.555227+00:00",
+  "tasks": [
+    {
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "episodes": [
+        {
+          "sid": "f447c2c7-4e2c-4e0b-9309-63607e6b38bf",
+          "eid": "f20c564a-8e20-4cee-a2c2-3d27aac46cf0",
+          "episode_id": 0,
+          "metrics": {
+            "success": true
+          },
+          "steps": 104,
+          "elapsed_sec": 29.614,
+          "name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "episode_idx": 0
+        },
+        {
+          "sid": "f447c2c7-4e2c-4e0b-9309-63607e6b38bf",
+          "eid": "aa77c9b6-0c36-49df-8f74-a953b84a9f19",
+          "episode_id": 1,
+          "metrics": {
+            "success": true
+          },
+          "steps": 118,
+          "elapsed_sec": 24.282,
+          "name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "episode_idx": 1
+        },
+        {
+          "sid": "f447c2c7-4e2c-4e0b-9309-63607e6b38bf",
+          "eid": "250766e5-7889-42a1-81ab-e0ed0766fcf0",
+          "episode_id": 2,
+          "metrics": {
+            "success": true
+          },
+          "steps": 126,
+          "elapsed_sec": 24.333,
+          "name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "episode_idx": 2
+        },
+        {
+          "sid": "f447c2c7-4e2c-4e0b-9309-63607e6b38bf",
+          "eid": "fc244859-c544-4d3f-947d-16e6d7525a7b",
+          "episode_id": 3,
+          "metrics": {
+            "success": true
+          },
+          "steps": 90,
+          "elapsed_sec": 18.233,
+          "name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "episode_idx": 3
+        },
+        {
+          "sid": "f447c2c7-4e2c-4e0b-9309-63607e6b38bf",
+          "eid": "da76bd06-e473-49a0-bd7f-9e1d5bcf9315",
+          "episode_id": 4,
+          "metrics": {
+            "success": true
+          },
+          "steps": 79,
+          "elapsed_sec": 16.91,
+          "name": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+          "suite": "libero_spatial",
+          "task_id": 0,
+          "episode_idx": 4
+        }
+      ],
+      "num_episodes": 5,
+      "avg_steps": 103.4,
+      "mean_success": 1.0
+    },
+    {
+      "task": "pick up the black bowl from table center and place it on the plate",
+      "episodes": [
+        {
+          "sid": "f447c2c7-4e2c-4e0b-9309-63607e6b38bf",
+          "eid": "bd3c7c9c-55cd-4bbb-aaf8-36375c37501a",
+          "episode_id": 0,
+          "metrics": {
+            "success": true
+          },
+          "steps": 107,
+          "elapsed_sec": 22.328,
+          "name": "pick up the black bowl from table center and place it on the plate",
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "episode_idx": 0
+        },
+        {
+          "sid": "f447c2c7-4e2c-4e0b-9309-63607e6b38bf",
+          "eid": "8889c982-4dab-4e91-9c44-11286b20eb06",
+          "episode_id": 1,
+          "metrics": {
+            "success": true
+          },
+          "steps": 103,
+          "elapsed_sec": 20.731,
+          "name": "pick up the black bowl from table center and place it on the plate",
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "episode_idx": 1
+        },
+        {
+          "sid": "f447c2c7-4e2c-4e0b-9309-63607e6b38bf",
+          "eid": "67c9c6bf-7abd-4a96-b088-5aceaa9f38ad",
+          "episode_id": 2,
+          "metrics": {
+            "success": true
+          },
+          "steps": 103,
+          "elapsed_sec": 21.165,
+          "name": "pick up the black bowl from table center and place it on the plate",
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "episode_idx": 2
+        },
+        {
+          "sid": "f447c2c7-4e2c-4e0b-9309-63607e6b38bf",
+          "eid": "e7b7124c-36ec-4a25-88cf-1fe629446c95",
+          "episode_id": 3,
+          "metrics": {
+            "success": true
+          },
+          "steps": 96,
+          "elapsed_sec": 19.231,
+          "name": "pick up the black bowl from table center and place it on the plate",
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "episode_idx": 3
+        },
+        {
+          "sid": "f447c2c7-4e2c-4e0b-9309-63607e6b38bf",
+          "eid": "a08cd9f3-98f3-4cb6-9f95-40c85c1eabe5",
+          "episode_id": 4,
+          "metrics": {
+            "success": true
+          },
+          "steps": 101,
+          "elapsed_sec": 19.716,
+          "name": "pick up the black bowl from table center and place it on the plate",
+          "suite": "libero_spatial",
+          "task_id": 2,
+          "episode_idx": 4
+        }
+      ],
+      "num_episodes": 5,
+      "avg_steps": 102.0,
+      "mean_success": 1.0
+    },
+    {
+      "task": "pick up the black bowl next to the ramekin and place it on the plate",
+      "episodes": [
+        {
+          "sid": "f447c2c7-4e2c-4e0b-9309-63607e6b38bf",
+          "eid": "66cda4c4-78f7-4563-baba-b51c4ac11ec7",
+          "episode_id": 0,
+          "metrics": {
+            "success": false
+          },
+          "steps": 220,
+          "elapsed_sec": 43.583,
+          "name": "pick up the black bowl next to the ramekin and place it on the plate",
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "episode_idx": 0
+        },
+        {
+          "sid": "f447c2c7-4e2c-4e0b-9309-63607e6b38bf",
+          "eid": "2de4d165-84f3-43bb-ba34-e55ef24c8aad",
+          "episode_id": 1,
+          "metrics": {
+            "success": false
+          },
+          "steps": 220,
+          "elapsed_sec": 39.946,
+          "name": "pick up the black bowl next to the ramekin and place it on the plate",
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "episode_idx": 1
+        },
+        {
+          "sid": "f447c2c7-4e2c-4e0b-9309-63607e6b38bf",
+          "eid": "bd1c4c46-df96-40a2-8fc2-39eca97cde1a",
+          "episode_id": 2,
+          "metrics": {
+            "success": false
+          },
+          "steps": 220,
+          "elapsed_sec": 42.716,
+          "name": "pick up the black bowl next to the ramekin and place it on the plate",
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "episode_idx": 2
+        },
+        {
+          "sid": "f447c2c7-4e2c-4e0b-9309-63607e6b38bf",
+          "eid": "506d7680-78f3-4708-be7b-34bda7ff905a",
+          "episode_id": 3,
+          "metrics": {
+            "success": true
+          },
+          "steps": 116,
+          "elapsed_sec": 23.457,
+          "name": "pick up the black bowl next to the ramekin and place it on the plate",
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "episode_idx": 3
+        },
+        {
+          "sid": "f447c2c7-4e2c-4e0b-9309-63607e6b38bf",
+          "eid": "10a2ee89-2207-41d2-baf3-1358e7194032",
+          "episode_id": 4,
+          "metrics": {
+            "success": false
+          },
+          "steps": 220,
+          "elapsed_sec": 42.1,
+          "name": "pick up the black bowl next to the ramekin and place it on the plate",
+          "suite": "libero_spatial",
+          "task_id": 1,
+          "episode_idx": 4
+        }
+      ],
+      "num_episodes": 5,
+      "avg_steps": 199.2,
+      "mean_success": 0.2
+    }
+  ],
+  "config": {
+    "benchmark": "vla_eval.benchmarks.libero.object_shift:LIBEROObjectShiftBenchmark",
+    "mode": "sync",
+    "name": "pi05_libero_spatial_pairshift_10cm_neg_x",
+    "subname": null,
+    "episodes_per_task": 5,
+    "max_steps": null,
+    "max_tasks": 3,
+    "tasks": null,
+    "params": {
+      "landmark_substr": "ramekin",
+      "num_steps_wait": 10,
+      "object_shift_axis": "x",
+      "object_shift_cm": -10,
+      "seed": 7,
+      "send_state": true,
+      "send_wrist_image": true,
+      "shift_mode": "pick_and_landmark",
+      "suite": "libero_spatial"
+    },
+    "recording": {
+      "record_video": true,
+      "video_fps": 10
+    },
+    "hz": 10.0,
+    "throughput_mode": false,
+    "paced": true,
+    "wait_first_action": false
+  },
+  "eval_id": "182a76af-d838-4b58-91bf-b871cb458853-pi05_libero_spatial_pairshift_10cm_neg_x",
+  "server_info": {
+    "harness_version": "0.4.0",
+    "protocol_version": 1,
+    "model_server": "LeRobotModelServer",
+    "capabilities": {},
+    "observation_params": {
+      "send_state": true,
+      "send_wrist_image": true
+    },
+    "action_spec": {
+      "actions": {
+        "name": "raw",
+        "dims": 0,
+        "format": "raw"
+      }
+    },
+    "observation_spec": {
+      "image": {
+        "name": "image",
+        "dims": 0,
+        "format": "rgb_hwc_uint8"
+      },
+      "language": {
+        "name": "language",
+        "dims": 0,
+        "format": "language"
+      },
+      "state": {
+        "name": "raw",
+        "dims": 0,
+        "format": "raw"
+      }
+    }
+  },
+  "render": {
+    "requested": "gpu",
+    "applied_env": {}
+  },
+  "seed": 7,
+  "metric_keys": {
+    "success": "mean"
+  },
+  "mean_success": 0.7333,
+  "num_episodes_total": 15
+}

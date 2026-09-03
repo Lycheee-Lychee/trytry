@@ -1,0 +1,29 @@
+# One-episode smoke of the 15° camera-yaw Spatial shift.
+server:
+  url: "ws://host.docker.internal:8000"
+  timeout: 180
+
+docker:
+  image: ghcr.io/allenai/vla-evaluation-harness/libero:latest
+  volumes:
+    - "/home/lychee/research/vla-evaluation-harness/src/vla_eval/benchmarks/libero/camera_shift.py:/workspace/src/vla_eval/benchmarks/libero/camera_shift.py:ro"
+
+output_dir: "./results/smoke_libero_camera_yaw15"
+
+benchmarks:
+  - benchmark: "vla_eval.benchmarks.libero.camera_shift:LIBEROCameraShiftBenchmark"
+    name: "pi05_libero_spatial_camera_yaw15_smoke"
+    episodes_per_task: 1
+    max_tasks: 1
+    params:
+      suite: libero_spatial
+      seed: 7
+      num_steps_wait: 10
+      horizon_view: 15
+      vertical_view: 0
+      scale_factor: 1.0
+      send_state: true
+      send_wrist_image: true
+    recording:
+      record_video: true
+      video_fps: 10
